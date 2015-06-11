@@ -25,7 +25,8 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 <div class="jumbotron" style="background-color:white;background:rgba(255, 255, 255, 0.8)">
-                <section class="col-md-3 navbar-form navbar-right">
+      <div class="row">
+                <section class="navbar-form navbar-right">
                 <input ng-model="query" placeholder="Search" class="form-control">
                 Sort by:
                 <select ng-model="orderProp">
@@ -35,11 +36,11 @@
                 </select>
             </section>
 
-        <div class="row">
-            <section class="col-md-3">
+      
+            <section>
               <img src="images/atos.png"/>
             </section>
-        </div>
+
 
 
   
@@ -49,6 +50,7 @@
         <img src="/{{project.image}}" />
       </li>
     </ul>
+  </div>
   </div>
 
 
