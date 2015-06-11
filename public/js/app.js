@@ -1,1 +1,1 @@
-var projectPresenter = angular.module('ProjectPresenter', ['ngResource']);
+var projectPresenter = angular.module('ProjectPresenter', ['ngRoute', 'ngResource']);

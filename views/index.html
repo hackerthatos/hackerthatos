@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="" ng-app="ProjectPresenter" >
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,14 +11,14 @@
     <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/grid.css">    
+    <link rel="stylesheet" href="/css/grid.css">
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-resource/angular-resource.min.js"></script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/modernizr/modernizr.js"></script>
     <script src="bower_components/bootstrap/dist/css/bootstrap.min.css"></script>
   </head>
-  <body>
+  <body ng-controller="ProjectPresentationController">
 
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -38,12 +38,20 @@
                     </select>
                   </div>
                 </section>
-            </div>    
-        </div>      
+            </div>
+        </div>
     </nav>
 
+    <ul ng-repeat="project in projects">
+      <li>
+        <title>{{project.title}}</title>
+        <img src="{{project.image}}" />
+        <p>{{project.body}}</p>
+      </li>
+    </ul>
 
-
+    <script src="/js/app.js"></script>
+    <script src="/js/projectPresentationController.js"></script>
     <script src="/js/main.js"></script>
   </body>
 </html>
