@@ -4,125 +4,125 @@
   "sector": "Media",
   "solution": "Digital Organisation",
   "body": "Pearson",
-  "image": "images/atos.png"
+  "image": "images/pearson.png"
 },
 {
   "index": 1,
   "sector": "Professional Services",
   "solution": "Digital Organisation",
   "body": "PwC",
-  "image": "images/atos.png"
+  "image": "images/pwc.png"
 },
 {
   "index": 2,
   "sector": "Retail",
   "solution": "Customer Experience & Digital Marketing",
   "body": "Carrefour",
-  "image": "images/atos.png"
+  "image": "images/carrefour.png"
 },
 {
   "index": 3,
   "sector": "Telecom & Media",
   "solution": "Digital Technology Strategy",
   "body": "Nokia Siemens Network",
-  "image": "images/atos.png"
+  "image": "images/Nokia.png"
 },
 {
   "index": 4,
   "sector": "Telecom & Media",
   "solution": "Digital Technology Strategy",
   "body": "Vodaphone",
-  "image": "images/atos.png"
+  "image": "images/vodaphone.png"
 },
 {
   "index": 5,
   "sector": "Utilities",
   "solution": "Digital Technology Strategy",
   "body": "BP",
-  "image": "images/atos.png"
+  "image": "images/bp.png"
 },
 {
   "index": 6,
   "sector": "Utilities",
   "solution": "Digital Technology Strategy",
   "body": "A2A Utilities",
-  "image": "images/atos.png"
+  "image": "images/a2a.png"
 },
 {
   "index": 7,
   "sector": "Financial Services",
   "solution": "Customer Experience & Digital Marketing",
   "body": "Zurich Insurance",
-  "image": "images/atos.png"
+  "image": "images/zurich.png"
 },
 {
   "index": 8,
   "sector": "Government",
   "solution": "Digital Business Model",
   "body": "UK Dept. for international Development",
-  "image": "images/atos.png"
+  "image": "images/dfid.png"
 },
 {
   "index": 9,
   "sector": "Government",
   "solution": "Analytics",
   "body": "UK Welsh Government",
-  "image": "images/atos.png"
+  "image": "images/welsh.png"
 },
 {
   "index": 10,
   "sector": "Government",
   "solution": "Analytics",
   "body": "UK Ministry of Defence",
-  "image": "images/atos.png"
+  "image": "images/mod.png"
 },
 {
   "index": 11,
   "sector": "Manufacturing/CPG",
   "solution": "Customer Experience & Digital Marketing",
   "body": "Renault CRM",
-  "image": "images/atos.png"
+  "image": "images/renault.png"
 },
 {
   "index": 12,
   "sector": "Manufacturing/CPG",
   "solution": "Customer Experience & Digital Marketing",
   "body": "Nestle CCID",
-  "image": "images/atos.png"
+  "image": "images/nestle.png"
 },
 {
   "index": 13,
   "sector": "Transport",
   "solution": "Customer Experience & Digital Marketing",
   "body": "Manchester Airport",
-  "image": "images/atos.png"
+  "image": "images/manchester.png"
 },
 {
   "index": 14,
   "sector": "Transport",
   "solution": "Digital Organisation",
   "body": "AirFrance/ KLM",
-  "image": "images/atos.png"
+  "image": "images/france.png"
 },
 {
   "index": 15,
   "sector": "Transport",
   "solution": "Digital Technology Strategy",
   "body": "First Group America",
-  "image": "images/atos.png"
+  "image": "images/first.png"
 },
 {
   "index": 16,
   "sector": "Transport",
   "solution": "Analytics",
   "body": "British Airways",
-  "image": "images/atos.png"
+  "image": "images/british.png"
 },
 {
   "index": 17,
   "sector": "Transport",
   "solution": "Analytics",
   "body": "Network Rail",
-  "image": "images/atos.png"
+  "image": "images/network.png"
 }
 ]
