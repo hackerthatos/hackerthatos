@@ -1,119 +1,93 @@
 [
   {
-   "age": 0,
-   "name": "Almond Toe Court Shoes",
-   "colour": "Patent Black",
-   "price": 99.00,
-   "stock": 5,
-   "category": "Women's Footwear",
-   "image": "images/Almond-Toe-Patent.jpeg"
+   "index": 0,
+   "sector": "Transport",
+   "solution": "Patent Black",
+   "body": "BT",
+   "image": "images/atos.png"
   },
   {
-   "age": 1,
-   "name": "Suede Shoes",
-   "colour": "Blue",
-   "price": 42.00,
-   "stock": 4,
-   "category": "Women's Footwear",
-   "image": "images/Blue-Suede-Shoes.jpg"
+   "index": 1,
+   "sector": "Transport",
+   "solution": "Transport",
+   "body": "Olgivy",
+   "image": "images/atos.png"
   },
   {
-   "age": 2,
-   "name": "Leather Driver Saddle Loafers",
-   "colour": "Tan",
-   "price": 34.00,
-   "stock": 12,
-   "category": "Men's Footwear",
-   "image": "images/Tan-Tassel-Loafers.jpeg"
+   "index": 2,
+   "sector": "Gov",
+   "solution": "Gov",
+   "body": "BT",
+   "image": "images/atos.png"
   },
   {
-   "age": 3,
-   "name": "Flip Flops",
-   "colour": "Red",
-   "price": 19.00,
-   "stock": 6,
-   "category": "Men's Footwear",
-   "image": "images/Red-Flip-Flops.jpg"
+   "index": 3,
+   "sector": "Telecom & Media",
+   "solution": "Telecom & Media",
+   "body": "BT",
+   "image": "images/atos.png"
+  },
+ {
+   "index": 4,
+   "sector": "Telecom & Media",
+   "solution": "Telecom & Media",
+   "body": "BT",
+   "image": "images/atos.png"
   },
   {
-   "age": 4,
-   "name": "Flip Flops",
-   "colour": "Blue",
-   "price": 19.00,
-   "stock": 0,
-   "category": "Men's Footwear",
-   "image": "images/Blue-Flip-Flops.jpg"
+   "index": 5,
+   "sector": "Utilities",
+   "solution": "Utilities",
+   "body": "BT",
+   "image": "images/atos.png"
   },
   {
-   "age": 5,
-   "name": "Gold Button Cardigan",
-   "colour": "Black",
-   "price": 167.00,
-   "stock": 6,
-   "category": "Women's Casualwear",
-   "image": "images/Gold-Button-Cardigan-Black.jpeg"
+   "index": 6,
+   "sector": "Finance",
+   "solution": "Finance",
+   "body": "BT",
+   "image": "images/atos.png"
+  },
+ {
+   "index": 7,
+   "sector": "Finance",
+   "solution": "Patent Black",
+   "body": "BT",
+   "image": "images/atos.png"
   },
   {
-   "age": 6,
-   "name": "Cotton Shorts",
-   "colour": "Medium Red",
-   "price": 30.00,
-   "stock": 5,
-   "category": "Women's Casualwear",
-   "image": "images/Cotton-Shorts-MediumRed.jpg"
+   "index": 8,
+   "sector": "Finance",
+   "solution": "Patent Black",
+   "body": "BT",
+   "image": "images/atos.png"
   },
-  {
-   "age": 7,
-   "name": "Fine Stripe Short Sleeve Shirt",
-   "colour": "Grey",
-   "price": 49.99,
-   "stock": 9,
-   "category": "Men's Casualwear",
-   "image": "images/Fine-Stripe-Shirt-Grey.jpeg"
+ {
+   "index": 9,
+   "sector": "Finance",
+   "solution": "Patent Black",
+   "body": "BT",
+   "image": "images/atos.png"
   },
-  {
-   "age": 8,
-   "name": "Fine Stripe Short Sleeve Shirt",
-   "colour": "Green",
-   "price": 39.99,
-   "stock": 3,
-   "category": "Men's Casualwear",
-   "image": "images/Fine-Stripe-Shirt-Green.jpg"
+ {
+   "index": 10,
+   "sector": "Gov",
+   "solution": "Patent Black",
+   "body": "BT",
+   "image": "images/atos.png"
   },
-  {
-   "age": 9,
-   "name": "Sharkskin Waistcoat",
-   "colour": "Charcoal (Black)",
-   "price": 75.00,
-   "stock": 2,
-   "category": "Men's Formalwear",
-   "image": "images/Waistcoat-Charcoal.jpeg"
+ {
+   "index": 11,
+   "sector": "Utilities",
+   "solution": "Patent Black",
+   "body": "BT",
+   "image": "images/atos.png"
   },
-  {
-   "age": 10,
-   "name": "Lightweight Patch Pocket Blazer",
-   "colour": "Deer",
-   "price": 175.50,
-   "stock": 1,
-   "category": "Men's Formalwear",
-   "image": "images/Patch-Pocket-Blazer-Deer.jpeg"
+{
+   "index": 12,
+   "sector": "Transport",
+   "solution": "Patent Black",
+   "body": "BT",
+   "image": "images/atos.png"
   },
-  {
-   "age": 11,
-   "name": "Bird Print Dress",
-   "colour": "Black",
-   "price": 270.00,
-   "stock": 10,
-   "category": "Women's Formalwear",
-   "image": "images/Bird-Print-Dress.png"
-  },
-  {
-   "age": 12,
-   "name": "Mid Twist Cut-Out Dress",
-   "colour": "Pink",
-   "price": 540.00,
-   "stock": 5,
-   "category": "Women's Formalwear",
-   "image": "images/Mid-Cut-Out-Dress-Pink.jpeg"
-  }
 ]
