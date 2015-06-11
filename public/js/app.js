@@ -1,0 +1,1 @@
+var projectPresenter = angular.module('ProjectPresenter', ['ngResource']);
