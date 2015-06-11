@@ -4,7 +4,7 @@ module.exports = function(grunt){
     jshint: {
       all: ['Gruntfile.js', 'app/angular_app/**/*.js']
     },
-    
+
     sass: {
       dist:{
         files: {
@@ -78,10 +78,10 @@ module.exports = function(grunt){
 
     protractor_webdriver: {
       options: {
-        // Task-specific options go here. 
+        // Task-specific options go here.
       },
       your_target: {
-        // Target-specific file lists and/or options go here. 
+        // Target-specific file lists and/or options go here.
       },
     },
 
@@ -96,7 +96,6 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-protractor-runner');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-jasmine');
-  grunt.loadNpmTasks('grunt-sass');
 
   grunt.registerTask('default', ['jshint', 'express:dev', 'protractor_webdriver', 'protractor:e2e']);
   grunt.registerTask('travis', ['jshint', 'express:dev', 'protractor:e2e']);
