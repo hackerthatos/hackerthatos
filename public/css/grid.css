@@ -8,6 +8,21 @@ nav{
   background-color: white;
 }
 
+.jumbotron{
+  color: white;
+}
+#search {
+  margin-top: 5%;
+}
+
+#portfolio p{
+  width:100px;
+  heigth: 100px;
+}
+#portfolio-container{
+  margin-left: 20%;
+}
+
 p {
   font-family:Verdana;
   color:white;

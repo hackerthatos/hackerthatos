@@ -25,12 +25,7 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 <div class="jumbotron" style="background-color:white;background:rgba(255, 255, 255, 0.8)">
-      <div class="collapse navbar-collapse bs-navbar-collapse">
-        <div class="row">
-            <section class="col-md-3">
-              <img src="images/atos.png"/>
-            </section>
-            <section class="col-md-3 navbar-form navbar-right">
+            <section id="search" class="col-md-3 navbar-form navbar-right">
                 <input ng-model="query" placeholder="Search" class="form-control">
                 Sort by:
                 <select ng-model="orderProp">
@@ -39,12 +34,17 @@
                   <option value="age">Projects</option>
                 </select>
             </section>
+      <div class="collapse navbar-collapse bs-navbar-collapse">
+        <div class="row">
+            <section class="col-md-3">
+              <img src="images/atos.png"/>
+            </section>
         </div>
 
 
-  
-    <ul ng-repeat="project in projects">
-      <li class="col-md-4 col-sm-6">
+
+    <ul ng-repeat="project in projects" id="portfolio-container">
+      <li class="col-md-4 col-sm-6" id="portfolio">
         <p>{{project.title}}</p>
         <img src="/{{project.image}}" />
       </li>
