@@ -1,13 +1,25 @@
 html{
-  background: url('../images/atosbackground.png') no-repeat;
+/*  background: url('../images/atosbackground.png') no-repeat;*/
+background-color:white;background:rgba(13, 101, 166, 0.8)
 }
 
 nav{
   width: 100%;
-  background-color: #625FC2;
+  background-color: white;
 }
-nav div.container{
 
+p {
+  font-family:Verdana;
+  color:white;
+}
+
+.navbar-right {
+float: right;
+}
+
+img {
+  width: 100px;
+  height: 100px;
 }
 
 .container {
