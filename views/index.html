@@ -26,7 +26,7 @@
     <![endif]-->
 <div class="jumbotron" style="background-color:white;background:rgba(255, 255, 255, 0.8)">
       <div class="row">
-                <section class="navbar-form navbar-right">
+                <section id="search" class="navbar-form navbar-right" style="margin-right:10%">
                 <input ng-model="query" placeholder="Search" class="form-control">
                 Sort by:
                 <select ng-model="orderProp">
@@ -38,13 +38,13 @@
 
       
             <section>
-              <img src="images/atos.png"/>
+              <img style="margin-left:1em;" src="images/atos.png"/>
             </section>
 
 
 
   
-    <ul ng-repeat="project in projects">
+    <ul ng-repeat="project in projects" id="portfolio-container">
       <li class="col-md-4 col-sm-6">
         <p>{{project.title}}</p>
         <img src="/{{project.image}}" />
