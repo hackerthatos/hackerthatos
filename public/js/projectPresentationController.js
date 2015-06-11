@@ -2,6 +2,7 @@ projectPresenter.controller('ProjectPresentationController', function($scope, $h
     self = $scope;
 
     $http.get('/json_projects').success(function(data) {
-      self.products = data;
+      self.projects = data;
     });
+
 });

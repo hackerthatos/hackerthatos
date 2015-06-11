@@ -14,9 +14,10 @@
     <link rel="stylesheet" href="/css/grid.css">
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/modernizr/modernizr.js"></script>
-    <script src="bower_components/bootstrap/dist/css/bootstrap.min.css"></script>
+    <!--<script src="bower_components/bootstrap/dist/css/bootstrap.min.css"></script>-->
   </head>
   <body ng-controller="ProjectPresentationController">
 
@@ -45,7 +46,7 @@
     <ul ng-repeat="project in projects">
       <li>
         <title>{{project.title}}</title>
-        <img src="{{project.image}}" />
+        <img src="/{{project.image}}" />
         <p>{{project.body}}</p>
       </li>
     </ul>
