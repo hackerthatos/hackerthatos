@@ -18,10 +18,33 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
+
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <h1>Hello World</h1>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container clearfix">
+            <div class="row">
+                <section class="col-xs-12">
+                  <h1>Atos Project</h1>
+                  <div class="navbar-form navbar-left">
+                    <input ng-model="query" placeholder="Search" class="form-control">
+                    Sort by:
+                    <select ng-model="orderProp">
+                      <option value="name">Sector</option>
+                      <option value="price">Solution</option>
+                      <option value="age">Projects</option>
+                    </select>
+                  </div>
+                </section>
+            </div>    
+        </div>      
+    </nav>
+
+    <section class="col-xs-12">
+        <h1>Project Title</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </section>
 
     <script src="/js/main.js"></script>
   </body>
